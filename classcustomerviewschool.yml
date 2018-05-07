@@ -1,0 +1,9 @@
+server:
+  port: 8084
+
+spring:
+  cloud:
+    stream:
+      bindings:
+          ClassCustomerEvent:
+            group: classcustomerview
