@@ -7,3 +7,9 @@ spring:
       bindings:
           ClassCustomerEvent:
             group: classcustomerview
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+
